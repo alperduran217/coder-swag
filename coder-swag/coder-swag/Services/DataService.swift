@@ -43,6 +43,19 @@ class DataService {
     
     private let digitalGoods = [Product]()
     
+    var basket = [Basket]()
+    
+    func addProductToBasket(product: Product) -> [Basket]{
+        
+        basket = [Basket(title: product.title, price: product.price, quantity: 1, imageName: product.imageName)]
+        
+        return basket
+    }
+    
+    func getBasket() -> [Basket] {
+        return basket
+    }
+    
     func getCategories() -> [Category] {
         return categories
     }

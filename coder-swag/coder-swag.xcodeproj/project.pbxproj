@@ -18,6 +18,11 @@
 		4E090AD61F8FA19A005179F8 /* ProductCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E090AD51F8FA19A005179F8 /* ProductCell.swift */; };
 		4E090AD81F8FA5F2005179F8 /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E090AD71F8FA5F2005179F8 /* Product.swift */; };
 		4E090ADA1F8FAA0B005179F8 /* ProductsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E090AD91F8FAA0B005179F8 /* ProductsVC.swift */; };
+		4E090ADC1F8FB665005179F8 /* ProductDetailVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E090ADB1F8FB665005179F8 /* ProductDetailVC.swift */; };
+		4E090ADE1F8FB71D005179F8 /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E090ADD1F8FB71D005179F8 /* CustomTextField.swift */; };
+		4E26AF5E1F94E30C00205269 /* Basket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26AF5D1F94E30C00205269 /* Basket.swift */; };
+		4E26AF601F94E3F100205269 /* BasketVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26AF5F1F94E3F100205269 /* BasketVC.swift */; };
+		4E26AF621F94E89700205269 /* BasketCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4E26AF611F94E89700205269 /* BasketCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +39,11 @@
 		4E090AD51F8FA19A005179F8 /* ProductCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductCell.swift; sourceTree = "<group>"; };
 		4E090AD71F8FA5F2005179F8 /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
 		4E090AD91F8FAA0B005179F8 /* ProductsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductsVC.swift; sourceTree = "<group>"; };
+		4E090ADB1F8FB665005179F8 /* ProductDetailVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductDetailVC.swift; sourceTree = "<group>"; };
+		4E090ADD1F8FB71D005179F8 /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		4E26AF5D1F94E30C00205269 /* Basket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Basket.swift; sourceTree = "<group>"; };
+		4E26AF5F1F94E3F100205269 /* BasketVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketVC.swift; sourceTree = "<group>"; };
+		4E26AF611F94E89700205269 /* BasketCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BasketCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -84,6 +94,7 @@
 			children = (
 				4E090ACF1F8F76DD005179F8 /* Category.swift */,
 				4E090AD71F8FA5F2005179F8 /* Product.swift */,
+				4E26AF5D1F94E30C00205269 /* Basket.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -93,6 +104,8 @@
 			children = (
 				4E090ABA1F8F6D8F005179F8 /* CategoriesVC.swift */,
 				4E090AD91F8FAA0B005179F8 /* ProductsVC.swift */,
+				4E090ADB1F8FB665005179F8 /* ProductDetailVC.swift */,
+				4E26AF5F1F94E3F100205269 /* BasketVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -102,6 +115,8 @@
 			children = (
 				4E090ACD1F8F746C005179F8 /* CategoryCell.swift */,
 				4E090AD51F8FA19A005179F8 /* ProductCell.swift */,
+				4E26AF611F94E89700205269 /* BasketCell.swift */,
+				4E090ADD1F8FB71D005179F8 /* CustomTextField.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -190,9 +205,14 @@
 				4E090ABB1F8F6D8F005179F8 /* CategoriesVC.swift in Sources */,
 				4E090AB91F8F6D8F005179F8 /* AppDelegate.swift in Sources */,
 				4E090ACE1F8F746C005179F8 /* CategoryCell.swift in Sources */,
+				4E26AF601F94E3F100205269 /* BasketVC.swift in Sources */,
+				4E090ADE1F8FB71D005179F8 /* CustomTextField.swift in Sources */,
 				4E090AD61F8FA19A005179F8 /* ProductCell.swift in Sources */,
+				4E26AF5E1F94E30C00205269 /* Basket.swift in Sources */,
 				4E090AD01F8F76DD005179F8 /* Category.swift in Sources */,
 				4E090AD41F8F844A005179F8 /* DataService.swift in Sources */,
+				4E26AF621F94E89700205269 /* BasketCell.swift in Sources */,
+				4E090ADC1F8FB665005179F8 /* ProductDetailVC.swift in Sources */,
 				4E090AD81F8FA5F2005179F8 /* Product.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
